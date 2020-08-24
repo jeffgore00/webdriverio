@@ -52,7 +52,7 @@ If necessary, you can specify `GLOBAL_AGENT_HTTPS_PROXY` to route HTTPS traffic 
 
 ```sh
 export GLOBAL_AGENT_HTTP_PROXY=http://my.corp.proxy.com:9090
-export GLOBAL_AGENT_HTTPS_PROXY=http://my.corp.proxy.com:9091
+export GLOBAL_AGENT_HTTPS_PROXY=https://my.corp.proxy.com:9091
 wdio.wdio.conf.js
 ```
 
